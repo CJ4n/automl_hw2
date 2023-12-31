@@ -1,2 +1,3 @@
 .venv
-some_path/*
+some_path
+AUTOML_*
