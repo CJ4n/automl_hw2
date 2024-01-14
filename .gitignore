@@ -1,5 +1,6 @@
 .venv
 some_path
 AUTOML_*
-# output
+output
+!*.txt
 autogluon_save
