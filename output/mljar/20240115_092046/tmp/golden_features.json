@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "feature_11",
+            "feature2": "feature_19",
+            "operation": "diff",
+            "score": 0.6718075546
+        },
+        {
+            "feature1": "feature_6",
+            "feature2": "feature_7",
+            "operation": "diff",
+            "score": 0.6905410137
+        },
+        {
+            "feature1": "feature_9",
+            "feature2": "feature_11",
+            "operation": "diff",
+            "score": 0.6947744073
+        },
+        {
+            "feature1": "feature_7",
+            "feature2": "feature_2",
+            "operation": "sum",
+            "score": 0.701591225
+        },
+        {
+            "feature1": "feature_7",
+            "feature2": "feature_14",
+            "operation": "diff",
+            "score": 0.7018781401
+        },
+        {
+            "feature1": "feature_7",
+            "feature2": "feature_11",
+            "operation": "diff",
+            "score": 0.7061941221
+        },
+        {
+            "feature1": "feature_15",
+            "feature2": "feature_11",
+            "operation": "sum",
+            "score": 0.706312675
+        },
+        {
+            "feature1": "feature_15",
+            "feature2": "feature_11",
+            "operation": "multiply",
+            "score": 0.7067815487
+        },
+        {
+            "feature1": "feature_20",
+            "feature2": "feature_3",
+            "operation": "sum",
+            "score": 0.7106662044
+        },
+        {
+            "feature1": "feature_8",
+            "feature2": "feature_16",
+            "operation": "ratio",
+            "score": 0.7107762128
+        }
+    ],
+    "new_columns": [
+        "feature_11_diff_feature_19",
+        "feature_6_diff_feature_7",
+        "feature_9_diff_feature_11",
+        "feature_7_sum_feature_2",
+        "feature_7_diff_feature_14",
+        "feature_7_diff_feature_11",
+        "feature_15_sum_feature_11",
+        "feature_15_multiply_feature_11",
+        "feature_20_sum_feature_3",
+        "feature_8_ratio_feature_16"
+    ],
+    "ml_task": "binary_classification"
+}

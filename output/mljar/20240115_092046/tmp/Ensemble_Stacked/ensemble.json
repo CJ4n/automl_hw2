@@ -1,0 +1,45 @@
+{
+    "name": "Ensemble_Stacked",
+    "ml_task": "binary_classification",
+    "optimize_metric": "f1",
+    "selected_models": [
+        {
+            "model": "114_CatBoost_Stacked",
+            "repeat": 10.0
+        },
+        {
+            "model": "11_Default_NearestNeighbors",
+            "repeat": 1.0
+        },
+        {
+            "model": "2_DecisionTree",
+            "repeat": 1.0
+        },
+        {
+            "model": "38_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "4_Linear",
+            "repeat": 1.0
+        },
+        {
+            "model": "67_NearestNeighbors",
+            "repeat": 1.0
+        },
+        {
+            "model": "73_NearestNeighbors",
+            "repeat": 1.0
+        },
+        {
+            "model": "88_Xgboost_Stacked",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble_Stacked\\predictions_ensemble.csv",
+    "metric_name": "f1",
+    "final_loss": -0.9143214509068167,
+    "train_time": 88.72504115104675,
+    "is_stacked": true,
+    "threshold": 0.49064406756311846
+}

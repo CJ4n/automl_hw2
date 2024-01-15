@@ -1,0 +1,1674 @@
+{
+    "uid": "c508f95e-7b99-418d-8f73-9505f95b7e4a",
+    "name": "67_NearestNeighbors_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "feature_11",
+                        "feature2": "feature_19",
+                        "operation": "diff",
+                        "score": 0.6718075546
+                    },
+                    {
+                        "feature1": "feature_6",
+                        "feature2": "feature_7",
+                        "operation": "diff",
+                        "score": 0.6905410137
+                    },
+                    {
+                        "feature1": "feature_9",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.6947744073
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_2",
+                        "operation": "sum",
+                        "score": 0.701591225
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_14",
+                        "operation": "diff",
+                        "score": 0.7018781401
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.7061941221
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "sum",
+                        "score": 0.706312675
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "multiply",
+                        "score": 0.7067815487
+                    },
+                    {
+                        "feature1": "feature_20",
+                        "feature2": "feature_3",
+                        "operation": "sum",
+                        "score": 0.7106662044
+                    },
+                    {
+                        "feature1": "feature_8",
+                        "feature2": "feature_16",
+                        "operation": "ratio",
+                        "score": 0.7107762128
+                    }
+                ],
+                "new_columns": [
+                    "feature_11_diff_feature_19",
+                    "feature_6_diff_feature_7",
+                    "feature_9_diff_feature_11",
+                    "feature_7_sum_feature_2",
+                    "feature_7_diff_feature_14",
+                    "feature_7_diff_feature_11",
+                    "feature_15_sum_feature_11",
+                    "feature_15_multiply_feature_11",
+                    "feature_20_sum_feature_3",
+                    "feature_8_ratio_feature_16"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        14.53964674655641,
+                        43.143157409373735,
+                        87.15485296870217,
+                        134.68936015971855,
+                        11.472008408675045,
+                        96.92113933691768,
+                        53.39454868794982,
+                        50.538774895562476,
+                        46.09004052870316,
+                        102.43856657170018,
+                        96.53881775923396,
+                        58.392516187053225,
+                        67.87944150102601,
+                        97.67939712863243,
+                        9.138757788720437,
+                        113.9583874161968,
+                        77.59496367717124,
+                        44.63921517287238,
+                        74.34468393105585,
+                        127.71613539500159,
+                        153.28986381369924,
+                        111.16173561182552,
+                        120.8905378956929,
+                        70.46495899933062,
+                        132.9688964062612,
+                        135.354261271345,
+                        93.67282155224424,
+                        44656.82318830574,
+                        161.12312504212375,
+                        0.27413515773796504
+                    ],
+                    "mean": [
+                        480.94921875,
+                        485.9375,
+                        498.8359375,
+                        506.446875,
+                        479.47109375,
+                        505.45390625,
+                        498.7171875,
+                        481.37734375,
+                        487.54375,
+                        481.55078125,
+                        497.11015625,
+                        497.73046875,
+                        501.19609375,
+                        492.98515625,
+                        477.78828125,
+                        484.0,
+                        501.10703125,
+                        479.2125,
+                        486.2515625,
+                        499.696875,
+                        10.85859375,
+                        6.73671875,
+                        -9.56640625,
+                        984.6546875,
+                        5.73203125,
+                        1.60703125,
+                        974.8984375,
+                        237199.07578125,
+                        998.5328125,
+                        1.0480447737215355
+                    ],
+                    "var": [
+                        211.40132751464844,
+                        1861.33203125,
+                        7595.968395996094,
+                        18141.223740234378,
+                        131.60697692871094,
+                        9393.707250366211,
+                        2850.977829589844,
+                        2554.167767944336,
+                        2124.2918359375,
+                        10493.659921264649,
+                        9319.743334350587,
+                        3409.6859466552733,
+                        4607.618578491211,
+                        9541.264623413086,
+                        83.51689392089845,
+                        12986.5140625,
+                        6020.978388061523,
+                        1992.65953125,
+                        5527.1320288085935,
+                        16311.411240234378,
+                        23497.78234802246,
+                        12356.931464233397,
+                        14614.52215270996,
+                        4965.310446777345,
+                        17680.72741149902,
+                        18320.776044311522,
+                        8774.597497558594,
+                        1994231857.2716012,
+                        25960.661423339847,
+                        0.07515008470801898
+                    ],
+                    "n_samples_seen": 1280,
+                    "n_features_in": 30,
+                    "columns": [
+                        "feature_1",
+                        "feature_2",
+                        "feature_3",
+                        "feature_4",
+                        "feature_5",
+                        "feature_6",
+                        "feature_7",
+                        "feature_8",
+                        "feature_9",
+                        "feature_10",
+                        "feature_11",
+                        "feature_12",
+                        "feature_13",
+                        "feature_14",
+                        "feature_15",
+                        "feature_16",
+                        "feature_17",
+                        "feature_18",
+                        "feature_19",
+                        "feature_20",
+                        "feature_11_diff_feature_19",
+                        "feature_6_diff_feature_7",
+                        "feature_9_diff_feature_11",
+                        "feature_7_sum_feature_2",
+                        "feature_7_diff_feature_14",
+                        "feature_7_diff_feature_11",
+                        "feature_15_sum_feature_11",
+                        "feature_15_multiply_feature_11",
+                        "feature_20_sum_feature_3",
+                        "feature_8_ratio_feature_16"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "-1.0": 0,
+                "1.0": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "feature_1": [
+                        "scale_normal"
+                    ],
+                    "feature_2": [
+                        "scale_normal"
+                    ],
+                    "feature_3": [
+                        "scale_normal"
+                    ],
+                    "feature_4": [
+                        "scale_normal"
+                    ],
+                    "feature_5": [
+                        "scale_normal"
+                    ],
+                    "feature_6": [
+                        "scale_normal"
+                    ],
+                    "feature_7": [
+                        "scale_normal"
+                    ],
+                    "feature_8": [
+                        "scale_normal"
+                    ],
+                    "feature_9": [
+                        "scale_normal"
+                    ],
+                    "feature_10": [
+                        "scale_normal"
+                    ],
+                    "feature_11": [
+                        "scale_normal"
+                    ],
+                    "feature_12": [
+                        "scale_normal"
+                    ],
+                    "feature_13": [
+                        "scale_normal"
+                    ],
+                    "feature_14": [
+                        "scale_normal"
+                    ],
+                    "feature_15": [
+                        "scale_normal"
+                    ],
+                    "feature_16": [
+                        "scale_normal"
+                    ],
+                    "feature_17": [
+                        "scale_normal"
+                    ],
+                    "feature_18": [
+                        "scale_normal"
+                    ],
+                    "feature_19": [
+                        "scale_normal"
+                    ],
+                    "feature_20": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "output\\mljar\\20240115_092046\\tmp",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "feature_11",
+                        "feature2": "feature_19",
+                        "operation": "diff",
+                        "score": 0.6718075546
+                    },
+                    {
+                        "feature1": "feature_6",
+                        "feature2": "feature_7",
+                        "operation": "diff",
+                        "score": 0.6905410137
+                    },
+                    {
+                        "feature1": "feature_9",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.6947744073
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_2",
+                        "operation": "sum",
+                        "score": 0.701591225
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_14",
+                        "operation": "diff",
+                        "score": 0.7018781401
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.7061941221
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "sum",
+                        "score": 0.706312675
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "multiply",
+                        "score": 0.7067815487
+                    },
+                    {
+                        "feature1": "feature_20",
+                        "feature2": "feature_3",
+                        "operation": "sum",
+                        "score": 0.7106662044
+                    },
+                    {
+                        "feature1": "feature_8",
+                        "feature2": "feature_16",
+                        "operation": "ratio",
+                        "score": 0.7107762128
+                    }
+                ],
+                "new_columns": [
+                    "feature_11_diff_feature_19",
+                    "feature_6_diff_feature_7",
+                    "feature_9_diff_feature_11",
+                    "feature_7_sum_feature_2",
+                    "feature_7_diff_feature_14",
+                    "feature_7_diff_feature_11",
+                    "feature_15_sum_feature_11",
+                    "feature_15_multiply_feature_11",
+                    "feature_20_sum_feature_3",
+                    "feature_8_ratio_feature_16"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        14.507376137756397,
+                        43.07816453004171,
+                        86.30423868849424,
+                        135.12348026687883,
+                        11.517289567618546,
+                        98.05045724282648,
+                        53.417916710440835,
+                        51.04268615518313,
+                        45.81795752686488,
+                        101.92481369065152,
+                        96.02955546002796,
+                        58.30055058580836,
+                        68.84503046854466,
+                        96.88597944019021,
+                        9.07876436539377,
+                        114.27321020980933,
+                        77.69084459171508,
+                        44.187330648267675,
+                        74.42984740719676,
+                        128.2456742691542,
+                        152.67534516056435,
+                        111.52835747685148,
+                        119.21226431971418,
+                        70.21788293579047,
+                        131.97726170371743,
+                        134.63975016171264,
+                        93.42224378677314,
+                        44576.75817727357,
+                        161.06799768209493,
+                        0.27573444818891973
+                    ],
+                    "mean": [
+                        481.0796875,
+                        484.5546875,
+                        498.41015625,
+                        504.7265625,
+                        479.321875,
+                        504.8953125,
+                        498.6234375,
+                        481.24296875,
+                        487.9734375,
+                        480.98203125,
+                        497.91015625,
+                        495.91328125,
+                        500.7578125,
+                        493.21640625,
+                        477.8203125,
+                        483.33046875,
+                        501.21796875,
+                        479.27265625,
+                        486.1015625,
+                        498.8625,
+                        11.80859375,
+                        6.271875,
+                        -9.93671875,
+                        983.178125,
+                        5.40703125,
+                        0.71328125,
+                        975.73046875,
+                        237623.39453125,
+                        997.27265625,
+                        1.0495741653245665
+                    ],
+                    "var": [
+                        210.46396240234372,
+                        1855.7282592773438,
+                        7448.421615600586,
+                        18258.354919433594,
+                        132.647958984375,
+                        9613.892165527344,
+                        2853.473825683594,
+                        2605.355809936523,
+                        2099.285231933594,
+                        10388.667645874022,
+                        9221.675521850586,
+                        3398.954198608399,
+                        4739.638220214843,
+                        9386.89301208496,
+                        82.42396240234375,
+                        13058.366571655273,
+                        6035.8673333740235,
+                        1952.5201898193359,
+                        5539.802185058594,
+                        16446.95296875,
+                        23309.76101989746,
+                        12438.574521484374,
+                        14211.563964233399,
+                        4930.551083984375,
+                        17417.99760681152,
+                        18127.8623236084,
+                        8727.715634155273,
+                        1987087369.5951264,
+                        25942.899877319334,
+                        0.07602948591804806
+                    ],
+                    "n_samples_seen": 1280,
+                    "n_features_in": 30,
+                    "columns": [
+                        "feature_1",
+                        "feature_2",
+                        "feature_3",
+                        "feature_4",
+                        "feature_5",
+                        "feature_6",
+                        "feature_7",
+                        "feature_8",
+                        "feature_9",
+                        "feature_10",
+                        "feature_11",
+                        "feature_12",
+                        "feature_13",
+                        "feature_14",
+                        "feature_15",
+                        "feature_16",
+                        "feature_17",
+                        "feature_18",
+                        "feature_19",
+                        "feature_20",
+                        "feature_11_diff_feature_19",
+                        "feature_6_diff_feature_7",
+                        "feature_9_diff_feature_11",
+                        "feature_7_sum_feature_2",
+                        "feature_7_diff_feature_14",
+                        "feature_7_diff_feature_11",
+                        "feature_15_sum_feature_11",
+                        "feature_15_multiply_feature_11",
+                        "feature_20_sum_feature_3",
+                        "feature_8_ratio_feature_16"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "-1.0": 0,
+                "1.0": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "feature_1": [
+                        "scale_normal"
+                    ],
+                    "feature_2": [
+                        "scale_normal"
+                    ],
+                    "feature_3": [
+                        "scale_normal"
+                    ],
+                    "feature_4": [
+                        "scale_normal"
+                    ],
+                    "feature_5": [
+                        "scale_normal"
+                    ],
+                    "feature_6": [
+                        "scale_normal"
+                    ],
+                    "feature_7": [
+                        "scale_normal"
+                    ],
+                    "feature_8": [
+                        "scale_normal"
+                    ],
+                    "feature_9": [
+                        "scale_normal"
+                    ],
+                    "feature_10": [
+                        "scale_normal"
+                    ],
+                    "feature_11": [
+                        "scale_normal"
+                    ],
+                    "feature_12": [
+                        "scale_normal"
+                    ],
+                    "feature_13": [
+                        "scale_normal"
+                    ],
+                    "feature_14": [
+                        "scale_normal"
+                    ],
+                    "feature_15": [
+                        "scale_normal"
+                    ],
+                    "feature_16": [
+                        "scale_normal"
+                    ],
+                    "feature_17": [
+                        "scale_normal"
+                    ],
+                    "feature_18": [
+                        "scale_normal"
+                    ],
+                    "feature_19": [
+                        "scale_normal"
+                    ],
+                    "feature_20": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "output\\mljar\\20240115_092046\\tmp",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "feature_11",
+                        "feature2": "feature_19",
+                        "operation": "diff",
+                        "score": 0.6718075546
+                    },
+                    {
+                        "feature1": "feature_6",
+                        "feature2": "feature_7",
+                        "operation": "diff",
+                        "score": 0.6905410137
+                    },
+                    {
+                        "feature1": "feature_9",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.6947744073
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_2",
+                        "operation": "sum",
+                        "score": 0.701591225
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_14",
+                        "operation": "diff",
+                        "score": 0.7018781401
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.7061941221
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "sum",
+                        "score": 0.706312675
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "multiply",
+                        "score": 0.7067815487
+                    },
+                    {
+                        "feature1": "feature_20",
+                        "feature2": "feature_3",
+                        "operation": "sum",
+                        "score": 0.7106662044
+                    },
+                    {
+                        "feature1": "feature_8",
+                        "feature2": "feature_16",
+                        "operation": "ratio",
+                        "score": 0.7107762128
+                    }
+                ],
+                "new_columns": [
+                    "feature_11_diff_feature_19",
+                    "feature_6_diff_feature_7",
+                    "feature_9_diff_feature_11",
+                    "feature_7_sum_feature_2",
+                    "feature_7_diff_feature_14",
+                    "feature_7_diff_feature_11",
+                    "feature_15_sum_feature_11",
+                    "feature_15_multiply_feature_11",
+                    "feature_20_sum_feature_3",
+                    "feature_8_ratio_feature_16"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        14.617727203926007,
+                        42.93186231979803,
+                        87.89127874409645,
+                        133.52530816033163,
+                        11.351194075232515,
+                        98.68569776497188,
+                        53.95003651360522,
+                        51.64145252149937,
+                        46.47727014374498,
+                        103.6485244726919,
+                        97.50856527882243,
+                        58.06368741532567,
+                        69.5427923662314,
+                        99.03607602716495,
+                        9.201390435010353,
+                        114.67789595984635,
+                        77.78546317436182,
+                        45.4089313275651,
+                        75.04115322357475,
+                        128.57429906812393,
+                        154.99791714948532,
+                        112.07852937755975,
+                        121.27574015753041,
+                        69.55157918666116,
+                        134.35293815077543,
+                        136.88687651590374,
+                        94.80312242476181,
+                        45250.101707466674,
+                        162.50691679803094,
+                        0.28235558168382174
+                    ],
+                    "mean": [
+                        481.48671875,
+                        484.2859375,
+                        497.24140625,
+                        504.79296875,
+                        479.3265625,
+                        504.484375,
+                        500.12734375,
+                        481.08046875,
+                        489.34921875,
+                        480.05390625,
+                        495.746875,
+                        495.64921875,
+                        500.49453125,
+                        489.01328125,
+                        478.13125,
+                        478.9546875,
+                        502.9625,
+                        477.40703125,
+                        488.31796875,
+                        493.934375,
+                        7.42890625,
+                        4.35703125,
+                        -6.39765625,
+                        984.41328125,
+                        11.1140625,
+                        4.38046875,
+                        973.878125,
+                        236729.59609375,
+                        991.17578125,
+                        1.0604896024073927
+                    ],
+                    "var": [
+                        213.67794860839845,
+                        1843.1448022460936,
+                        7724.876879272461,
+                        17829.007919311523,
+                        128.84960693359375,
+                        9738.866943359375,
+                        2910.606439819336,
+                        2666.8396185302736,
+                        2160.1366400146485,
+                        10743.016625366212,
+                        9507.920302734376,
+                        3371.3917962646483,
+                        4836.199970092773,
+                        9808.144354858397,
+                        84.66558593750001,
+                        13151.019821777343,
+                        6050.578281249999,
+                        2061.971044311523,
+                        5631.174677124024,
+                        16531.350380859374,
+                        24024.35432067871,
+                        12561.596747436522,
+                        14707.805150756834,
+                        4837.422167358398,
+                        18050.71198974609,
+                        18738.016962280275,
+                        8987.632021484374,
+                        2047571704.5360787,
+                        26408.49800720215,
+                        0.07972467450800932
+                    ],
+                    "n_samples_seen": 1280,
+                    "n_features_in": 30,
+                    "columns": [
+                        "feature_1",
+                        "feature_2",
+                        "feature_3",
+                        "feature_4",
+                        "feature_5",
+                        "feature_6",
+                        "feature_7",
+                        "feature_8",
+                        "feature_9",
+                        "feature_10",
+                        "feature_11",
+                        "feature_12",
+                        "feature_13",
+                        "feature_14",
+                        "feature_15",
+                        "feature_16",
+                        "feature_17",
+                        "feature_18",
+                        "feature_19",
+                        "feature_20",
+                        "feature_11_diff_feature_19",
+                        "feature_6_diff_feature_7",
+                        "feature_9_diff_feature_11",
+                        "feature_7_sum_feature_2",
+                        "feature_7_diff_feature_14",
+                        "feature_7_diff_feature_11",
+                        "feature_15_sum_feature_11",
+                        "feature_15_multiply_feature_11",
+                        "feature_20_sum_feature_3",
+                        "feature_8_ratio_feature_16"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "-1.0": 0,
+                "1.0": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "feature_1": [
+                        "scale_normal"
+                    ],
+                    "feature_2": [
+                        "scale_normal"
+                    ],
+                    "feature_3": [
+                        "scale_normal"
+                    ],
+                    "feature_4": [
+                        "scale_normal"
+                    ],
+                    "feature_5": [
+                        "scale_normal"
+                    ],
+                    "feature_6": [
+                        "scale_normal"
+                    ],
+                    "feature_7": [
+                        "scale_normal"
+                    ],
+                    "feature_8": [
+                        "scale_normal"
+                    ],
+                    "feature_9": [
+                        "scale_normal"
+                    ],
+                    "feature_10": [
+                        "scale_normal"
+                    ],
+                    "feature_11": [
+                        "scale_normal"
+                    ],
+                    "feature_12": [
+                        "scale_normal"
+                    ],
+                    "feature_13": [
+                        "scale_normal"
+                    ],
+                    "feature_14": [
+                        "scale_normal"
+                    ],
+                    "feature_15": [
+                        "scale_normal"
+                    ],
+                    "feature_16": [
+                        "scale_normal"
+                    ],
+                    "feature_17": [
+                        "scale_normal"
+                    ],
+                    "feature_18": [
+                        "scale_normal"
+                    ],
+                    "feature_19": [
+                        "scale_normal"
+                    ],
+                    "feature_20": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "output\\mljar\\20240115_092046\\tmp",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "feature_11",
+                        "feature2": "feature_19",
+                        "operation": "diff",
+                        "score": 0.6718075546
+                    },
+                    {
+                        "feature1": "feature_6",
+                        "feature2": "feature_7",
+                        "operation": "diff",
+                        "score": 0.6905410137
+                    },
+                    {
+                        "feature1": "feature_9",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.6947744073
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_2",
+                        "operation": "sum",
+                        "score": 0.701591225
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_14",
+                        "operation": "diff",
+                        "score": 0.7018781401
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.7061941221
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "sum",
+                        "score": 0.706312675
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "multiply",
+                        "score": 0.7067815487
+                    },
+                    {
+                        "feature1": "feature_20",
+                        "feature2": "feature_3",
+                        "operation": "sum",
+                        "score": 0.7106662044
+                    },
+                    {
+                        "feature1": "feature_8",
+                        "feature2": "feature_16",
+                        "operation": "ratio",
+                        "score": 0.7107762128
+                    }
+                ],
+                "new_columns": [
+                    "feature_11_diff_feature_19",
+                    "feature_6_diff_feature_7",
+                    "feature_9_diff_feature_11",
+                    "feature_7_sum_feature_2",
+                    "feature_7_diff_feature_14",
+                    "feature_7_diff_feature_11",
+                    "feature_15_sum_feature_11",
+                    "feature_15_multiply_feature_11",
+                    "feature_20_sum_feature_3",
+                    "feature_8_ratio_feature_16"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        14.49278509128416,
+                        42.88032787795469,
+                        88.79814368361127,
+                        134.88085942873576,
+                        11.5173404421062,
+                        98.3659570251052,
+                        54.21010987983325,
+                        51.21165256818656,
+                        45.73006336840909,
+                        104.50819064370549,
+                        98.4035677627468,
+                        58.000783975498656,
+                        69.04534614011577,
+                        97.3982947981629,
+                        9.08735139874848,
+                        113.1928059479019,
+                        78.56297334781824,
+                        44.65774727961369,
+                        75.1268232371245,
+                        127.90544505753542,
+                        155.91873343167114,
+                        111.9501938293878,
+                        121.94281860827982,
+                        70.52691543071268,
+                        132.8979751053769,
+                        137.94590870347457,
+                        95.6761089132102,
+                        45612.03044633319,
+                        161.6490896995204,
+                        0.2479987437568347
+                    ],
+                    "mean": [
+                        480.62421875,
+                        484.01171875,
+                        497.86953125,
+                        501.546875,
+                        479.084375,
+                        503.2078125,
+                        498.6765625,
+                        480.55078125,
+                        486.42890625,
+                        480.6390625,
+                        499.58125,
+                        495.24140625,
+                        499.88671875,
+                        495.7171875,
+                        477.57734375,
+                        482.565625,
+                        501.4125,
+                        480.3828125,
+                        486.22421875,
+                        497.85390625,
+                        13.35703125,
+                        4.53125,
+                        -13.15234375,
+                        982.68828125,
+                        2.959375,
+                        -0.9046875,
+                        977.15859375,
+                        238282.72421875,
+                        995.7234375,
+                        1.0463786740059278
+                    ],
+                    "var": [
+                        210.04081970214844,
+                        1838.7225189208984,
+                        7885.110321655273,
+                        18192.846240234376,
+                        132.64913085937502,
+                        9675.861501464844,
+                        2938.736013183594,
+                        2622.6333587646486,
+                        2091.238695678711,
+                        10921.961911621092,
+                        9683.262148437501,
+                        3364.0909417724615,
+                        4767.259823608399,
+                        9486.427829589844,
+                        82.57995544433595,
+                        12812.611318359375,
+                        6172.14078125,
+                        1994.3143920898438,
+                        5644.039569702149,
+                        16359.802875366211,
+                        24310.651434936524,
+                        12532.8458984375,
+                        14870.051010131836,
+                        4974.0458001708985,
+                        17661.871787109376,
+                        19029.073728027342,
+                        9153.91781677246,
+                        2080457321.437226,
+                        26130.428200683593,
+                        0.061503376904968154
+                    ],
+                    "n_samples_seen": 1280,
+                    "n_features_in": 30,
+                    "columns": [
+                        "feature_1",
+                        "feature_2",
+                        "feature_3",
+                        "feature_4",
+                        "feature_5",
+                        "feature_6",
+                        "feature_7",
+                        "feature_8",
+                        "feature_9",
+                        "feature_10",
+                        "feature_11",
+                        "feature_12",
+                        "feature_13",
+                        "feature_14",
+                        "feature_15",
+                        "feature_16",
+                        "feature_17",
+                        "feature_18",
+                        "feature_19",
+                        "feature_20",
+                        "feature_11_diff_feature_19",
+                        "feature_6_diff_feature_7",
+                        "feature_9_diff_feature_11",
+                        "feature_7_sum_feature_2",
+                        "feature_7_diff_feature_14",
+                        "feature_7_diff_feature_11",
+                        "feature_15_sum_feature_11",
+                        "feature_15_multiply_feature_11",
+                        "feature_20_sum_feature_3",
+                        "feature_8_ratio_feature_16"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "-1.0": 0,
+                "1.0": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "feature_1": [
+                        "scale_normal"
+                    ],
+                    "feature_2": [
+                        "scale_normal"
+                    ],
+                    "feature_3": [
+                        "scale_normal"
+                    ],
+                    "feature_4": [
+                        "scale_normal"
+                    ],
+                    "feature_5": [
+                        "scale_normal"
+                    ],
+                    "feature_6": [
+                        "scale_normal"
+                    ],
+                    "feature_7": [
+                        "scale_normal"
+                    ],
+                    "feature_8": [
+                        "scale_normal"
+                    ],
+                    "feature_9": [
+                        "scale_normal"
+                    ],
+                    "feature_10": [
+                        "scale_normal"
+                    ],
+                    "feature_11": [
+                        "scale_normal"
+                    ],
+                    "feature_12": [
+                        "scale_normal"
+                    ],
+                    "feature_13": [
+                        "scale_normal"
+                    ],
+                    "feature_14": [
+                        "scale_normal"
+                    ],
+                    "feature_15": [
+                        "scale_normal"
+                    ],
+                    "feature_16": [
+                        "scale_normal"
+                    ],
+                    "feature_17": [
+                        "scale_normal"
+                    ],
+                    "feature_18": [
+                        "scale_normal"
+                    ],
+                    "feature_19": [
+                        "scale_normal"
+                    ],
+                    "feature_20": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "output\\mljar\\20240115_092046\\tmp",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "feature_11",
+                        "feature2": "feature_19",
+                        "operation": "diff",
+                        "score": 0.6718075546
+                    },
+                    {
+                        "feature1": "feature_6",
+                        "feature2": "feature_7",
+                        "operation": "diff",
+                        "score": 0.6905410137
+                    },
+                    {
+                        "feature1": "feature_9",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.6947744073
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_2",
+                        "operation": "sum",
+                        "score": 0.701591225
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_14",
+                        "operation": "diff",
+                        "score": 0.7018781401
+                    },
+                    {
+                        "feature1": "feature_7",
+                        "feature2": "feature_11",
+                        "operation": "diff",
+                        "score": 0.7061941221
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "sum",
+                        "score": 0.706312675
+                    },
+                    {
+                        "feature1": "feature_15",
+                        "feature2": "feature_11",
+                        "operation": "multiply",
+                        "score": 0.7067815487
+                    },
+                    {
+                        "feature1": "feature_20",
+                        "feature2": "feature_3",
+                        "operation": "sum",
+                        "score": 0.7106662044
+                    },
+                    {
+                        "feature1": "feature_8",
+                        "feature2": "feature_16",
+                        "operation": "ratio",
+                        "score": 0.7107762128
+                    }
+                ],
+                "new_columns": [
+                    "feature_11_diff_feature_19",
+                    "feature_6_diff_feature_7",
+                    "feature_9_diff_feature_11",
+                    "feature_7_sum_feature_2",
+                    "feature_7_diff_feature_14",
+                    "feature_7_diff_feature_11",
+                    "feature_15_sum_feature_11",
+                    "feature_15_multiply_feature_11",
+                    "feature_20_sum_feature_3",
+                    "feature_8_ratio_feature_16"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        14.449128649354117,
+                        43.092862452052586,
+                        88.78373849455393,
+                        134.15936211367816,
+                        11.44404373833659,
+                        97.61154731542536,
+                        54.05778948386473,
+                        51.38231773366781,
+                        45.67321016159083,
+                        104.58963531725263,
+                        95.76469105179682,
+                        58.0333336324909,
+                        68.59591984306509,
+                        96.23334636452506,
+                        9.066307255222148,
+                        115.74667503903848,
+                        78.43466622122119,
+                        44.14620197069619,
+                        75.13408390314507,
+                        129.3496455166696,
+                        153.15138800051528,
+                        112.68526234432511,
+                        119.04785995130015,
+                        69.96844985141071,
+                        131.9990719294434,
+                        135.07180195718115,
+                        93.12304606800818,
+                        44416.05259383592,
+                        164.27320213280328,
+                        0.285970146355892
+                    ],
+                    "mean": [
+                        480.96015625,
+                        484.60703125,
+                        495.82734375,
+                        505.56796875,
+                        479.38359375,
+                        501.79296875,
+                        499.45234375,
+                        479.6234375,
+                        487.5078125,
+                        478.36171875,
+                        498.3859375,
+                        496.075,
+                        498.44609375,
+                        494.34921875,
+                        477.7859375,
+                        481.10546875,
+                        500.246875,
+                        479.76875,
+                        487.1078125,
+                        496.96484375,
+                        11.278125,
+                        2.340625,
+                        -10.878125,
+                        984.059375,
+                        5.103125,
+                        1.06640625,
+                        976.171875,
+                        237831.20625,
+                        992.7921875,
+                        1.0541025393147951
+                    ],
+                    "var": [
+                        208.77731872558593,
+                        1856.9947943115235,
+                        7882.552221069336,
+                        17998.734442749024,
+                        130.96613708496093,
+                        9528.014169311524,
+                        2922.244603881836,
+                        2640.142575683594,
+                        2086.042126464844,
+                        10938.991815795898,
+                        9170.876052246094,
+                        3367.8678124999997,
+                        4705.400219116212,
+                        9260.856952514649,
+                        82.19792724609374,
+                        13397.292782592773,
+                        6151.996865234376,
+                        1948.8871484375,
+                        5645.1305639648435,
+                        16731.330795288086,
+                        23455.347646484373,
+                        12697.968349609375,
+                        14172.392958984376,
+                        4895.583974609375,
+                        17423.754990234374,
+                        18244.391683959962,
+                        8671.901708984375,
+                        1972785728.0183983,
+                        26985.68493896484,
+                        0.08177892460681029
+                    ],
+                    "n_samples_seen": 1280,
+                    "n_features_in": 30,
+                    "columns": [
+                        "feature_1",
+                        "feature_2",
+                        "feature_3",
+                        "feature_4",
+                        "feature_5",
+                        "feature_6",
+                        "feature_7",
+                        "feature_8",
+                        "feature_9",
+                        "feature_10",
+                        "feature_11",
+                        "feature_12",
+                        "feature_13",
+                        "feature_14",
+                        "feature_15",
+                        "feature_16",
+                        "feature_17",
+                        "feature_18",
+                        "feature_19",
+                        "feature_20",
+                        "feature_11_diff_feature_19",
+                        "feature_6_diff_feature_7",
+                        "feature_9_diff_feature_11",
+                        "feature_7_sum_feature_2",
+                        "feature_7_diff_feature_14",
+                        "feature_7_diff_feature_11",
+                        "feature_15_sum_feature_11",
+                        "feature_15_multiply_feature_11",
+                        "feature_20_sum_feature_3",
+                        "feature_8_ratio_feature_16"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "-1.0": 0,
+                "1.0": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "feature_1": [
+                        "scale_normal"
+                    ],
+                    "feature_2": [
+                        "scale_normal"
+                    ],
+                    "feature_3": [
+                        "scale_normal"
+                    ],
+                    "feature_4": [
+                        "scale_normal"
+                    ],
+                    "feature_5": [
+                        "scale_normal"
+                    ],
+                    "feature_6": [
+                        "scale_normal"
+                    ],
+                    "feature_7": [
+                        "scale_normal"
+                    ],
+                    "feature_8": [
+                        "scale_normal"
+                    ],
+                    "feature_9": [
+                        "scale_normal"
+                    ],
+                    "feature_10": [
+                        "scale_normal"
+                    ],
+                    "feature_11": [
+                        "scale_normal"
+                    ],
+                    "feature_12": [
+                        "scale_normal"
+                    ],
+                    "feature_13": [
+                        "scale_normal"
+                    ],
+                    "feature_14": [
+                        "scale_normal"
+                    ],
+                    "feature_15": [
+                        "scale_normal"
+                    ],
+                    "feature_16": [
+                        "scale_normal"
+                    ],
+                    "feature_17": [
+                        "scale_normal"
+                    ],
+                    "feature_18": [
+                        "scale_normal"
+                    ],
+                    "feature_19": [
+                        "scale_normal"
+                    ],
+                    "feature_20": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "output\\mljar\\20240115_092046\\tmp",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "d2647db4-0233-4dde-8bd8-2c794cd999bb",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 45,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "3fb54244-2c8f-44bd-9295-a764fe844634",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 45,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "e1964fac-eeec-4d25-b166-9f051eda1cc6",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 45,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "5c4f72b4-6d48-42e0-94dc-2b427a0bfd23",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 45,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "48a48522-ed66-4e6a-9669-e8cd6da0db9b",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 45,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": 100000,
+            "max_cols_limit": 100
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "feature_1": [
+                    "scale_normal"
+                ],
+                "feature_2": [
+                    "scale_normal"
+                ],
+                "feature_3": [
+                    "scale_normal"
+                ],
+                "feature_4": [
+                    "scale_normal"
+                ],
+                "feature_5": [
+                    "scale_normal"
+                ],
+                "feature_6": [
+                    "scale_normal"
+                ],
+                "feature_7": [
+                    "scale_normal"
+                ],
+                "feature_8": [
+                    "scale_normal"
+                ],
+                "feature_9": [
+                    "scale_normal"
+                ],
+                "feature_10": [
+                    "scale_normal"
+                ],
+                "feature_11": [
+                    "scale_normal"
+                ],
+                "feature_12": [
+                    "scale_normal"
+                ],
+                "feature_13": [
+                    "scale_normal"
+                ],
+                "feature_14": [
+                    "scale_normal"
+                ],
+                "feature_15": [
+                    "scale_normal"
+                ],
+                "feature_16": [
+                    "scale_normal"
+                ],
+                "feature_17": [
+                    "scale_normal"
+                ],
+                "feature_18": [
+                    "scale_normal"
+                ],
+                "feature_19": [
+                    "scale_normal"
+                ],
+                "feature_20": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "output\\mljar\\20240115_092046\\tmp",
+                "ml_task": "binary_classification",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "output\\mljar\\20240115_092046\\tmp\\X.data",
+            "y_path": "output\\mljar\\20240115_092046\\tmp\\y.data",
+            "results_path": "output\\mljar\\20240115_092046\\tmp",
+            "k_folds": 5
+        },
+        "learner": {
+            "model_type": "Nearest Neighbors",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 45,
+            "n_neighbors": 3,
+            "weights": "distance",
+            "explain_level": 0
+        },
+        "automl_random_state": 42,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "67_NearestNeighbors_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "67_NearestNeighbors_GoldenFeatures\\learner_fold_0.k_neighbors",
+        "67_NearestNeighbors_GoldenFeatures\\learner_fold_1.k_neighbors",
+        "67_NearestNeighbors_GoldenFeatures\\learner_fold_2.k_neighbors",
+        "67_NearestNeighbors_GoldenFeatures\\learner_fold_3.k_neighbors",
+        "67_NearestNeighbors_GoldenFeatures\\learner_fold_4.k_neighbors"
+    ],
+    "predictions_fname": "67_NearestNeighbors_GoldenFeatures\\predictions_out_of_folds.csv",
+    "metric_name": "f1",
+    "final_loss": "-0.883720930232558",
+    "train_time": 29.76179814338684,
+    "is_stacked": false,
+    "joblib_version": "1.3.2",
+    "threshold": 0.37193626536167057
+}
